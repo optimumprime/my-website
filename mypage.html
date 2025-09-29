@@ -1,0 +1,42 @@
+<html>
+<body>
+    <div id="title">
+        <h1>Welcome to Sunday's web page</h1>
+        <p>This is where Dreams come true</p>
+        <button onclick="makeDreamComeTrue()">Make dream come true</button>
+    </div>
+</body>
+</html>
+
+<style>
+
+body {
+   background-image: url(https://assets.tommackie.com/wp-content/uploads/2021/05/25133414/170495-2.jpg);
+   background-size: cover;
+}
+
+h1 {
+  color: blue;
+}
+
+button:hover {
+  background-color: red;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#title {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+</style>
+
+<script>
+function makeDreamComeTrue() {
+  document.body.style.background = 'url("https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyMXdneGx2a292dG1qNm95djVneDl6NWpkNTM1bDBnMHYwdnhuNngzdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qwGcDfEAGdJWmuSnwh/giphy-downsized.gif")';
+  document.getElementById("title").style.visibility = "hidden";
+}
+
+</script>
